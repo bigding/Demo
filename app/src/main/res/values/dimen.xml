@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--高度-->
+    <dimen name="normal_input_height">45dp</dimen>
+    <dimen name="normal_input_width">60dp</dimen>
+    <dimen name="titlebar_height">55sp</dimen>
+    <dimen name="goos_info_height">60dp</dimen>
+    <dimen name="message_item_height">150dp</dimen>
+    <dimen name="tab_height">96dp</dimen>
+    <!--字体-->
+    <dimen name="title_text_size">20sp</dimen>
+    <dimen name="default_text_size">14sp</dimen>
+    <dimen name="goods_info_text_size">20sp</dimen>
+    <!--间距-->
+    <dimen name="little_space">5sp</dimen>
+    <dimen name="normal_space">10dp</dimen>
+</resources>
