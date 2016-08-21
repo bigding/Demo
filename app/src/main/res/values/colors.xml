@@ -10,4 +10,6 @@
     <color name="goods_info_text_color">#AAFFFFFF</color>
     <color name="btn_color">#B3CB00</color>
     <color name="bg_color">#55000000</color>
+    <color name="bg_blue">#C1EAF9</color>
+    <color name="white">#C1EAF9</color>
 </resources>
