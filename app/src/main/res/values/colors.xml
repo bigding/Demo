@@ -6,8 +6,9 @@
     <color name="normal_text_color">#4C4D49</color>
     <color name="pressed_text_color">#25B6ED</color>
     <color name="title_text_color">#FFFFFF</color>
+    <color name="titlebar_color">#26B6EA</color>
     <color name="divider_color">#EEEEEE</color>
     <color name="goods_info_text_color">#AAFFFFFF</color>
     <color name="btn_color">#B3CB00</color>
-    <color name="bg_color">#55000000</color>
+    <color name="bg_color">#C1EAF9</color>
 </resources>
