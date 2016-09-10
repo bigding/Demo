@@ -1,4 +1,18 @@
 <resources>
     <string name="app_name">Demo</string>
     <string name="title_text">ThinnerBaby</string>
+    <string name="set_title">创建宠物</string>
+    <string name="info">基本资料</string>
+    <string name="height">身高</string>
+    <string name="weight">体重</string>
+    <string name="age">年龄</string>
+    <string name="gender">性别</string>
+    <string name="birth">生日</string>
+    <string name="pet_name">宠物名称</string>
+    <string name="signature">个性签名</string>
+    <string name="confirm">确认保存</string>
+    <string name="self">个性展示</string>
+    <string name="name">姓名</string>
+    <string name="shape">体型</string>
+    <string name="goal">阶段目标</string>
 </resources>

@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 public class PublishFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, final ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.publish_pg, container, false);
+        View view = inflater.inflate(R.layout.set_pg2, container, false);
         return view;
     }
 
