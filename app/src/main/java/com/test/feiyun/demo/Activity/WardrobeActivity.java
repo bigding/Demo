@@ -317,13 +317,6 @@ public class WardrobeActivity extends AppCompatActivity implements SwipeRefreshL
                 }
             });
 
-
-//            convertView.setOnClickListener(new View.OnClickListener() {
-//                @Override
-//                public void onClick(View v) {
-//                    Toast.makeText(getContext(),"好 知道你已经点了",Toast.LENGTH_SHORT).show();
-//                }
-//            });
             return convertView;
         }
         class MyHolder{
