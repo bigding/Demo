@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:orientation="vertical"
+        android:background="@drawable/corners"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:textColor="@color/black"
+            android:id="@+id/record_date"
+            android:text="2016-6-1"
+            android:layout_margin="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:id="@+id/record_num"
+            android:textColor="@color/text_gray"
+            android:text="宝宝锻炼的第一天"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:id="@+id/record_content"
+            android:textColor="@color/text_gray_1"
+            android:text="       软件和信息技术产业作为我国的核心产业，的先导性软件和信息技术产业作为我国的核心产业，的先导性软件和信息技术产业作为我国的核心产业，的先导性、战略性产业，软件和信息技术产业在推进信息化和工业化融合，转变发展方式，维护国家安全等方面发挥着重要作用。"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:lines="5"
+            android:ellipsize="end"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

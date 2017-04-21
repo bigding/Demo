@@ -2,60 +2,76 @@
 <items version="2" >
 
     <item
-        jar="D:\Git\Demo\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
-        <dex dex="D:\Git\Demo\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_cd20b6c7f44404c945c06d1a670aab465e19d411\classes.dex" />
+        is-multidex="false"
+        jar="D:\Git\Demo\app\libs\MobCommons-2016.1201.1839.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d2416fb4e3fe16c82785fc6cd4f8b768b25c6202">
+        <dex dex="D:\Git\Demo\app\build\intermediates\pre-dexed\release\MobCommons-2016.1201.1839_811523694172bf00c4ab09d271cdfd4c75479c30.jar" />
     </item>
     <item
-        jar="D:\Git\Demo\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
-        <dex dex="D:\Git\Demo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_0f186832b539dcb663a59bce55cc0e1616e2cd99\classes.dex" />
-    </item>
-    <item
-        jar="D:\Git\Demo\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
-        <dex dex="D:\Git\Demo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.3.0_b29ee8fe55f1a1dac72eb7c330f1bb555e4ca0c8\classes.dex" />
-    </item>
-    <item
-        jar="D:\Git\Demo\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
-        <dex dex="D:\Git\Demo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.3.0_e96bb523a241fbf3184add0b4001c0617c56d615\classes.dex" />
-    </item>
-    <item
-        jar="C:\MYSOFTWARE\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
-        <dex dex="D:\Git\Demo\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_708c0e0d0c1d424abd5e5ec1b314ac0eeff315bf\classes.dex" />
-    </item>
-    <item
-        jar="D:\Git\Demo\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
-        <dex dex="D:\Git\Demo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.3.0_18da7cd24587f5dd8025b52fb2c9a4cc5cbbd01a\classes.dex" />
-    </item>
-    <item
+        is-multidex="true"
         jar="D:\Git\Demo\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
-        revision="23.0.3"
-        sha1="04f59f6c74b46e7355c970e991a5403c328b90bd">
-        <dex dex="D:\Git\Demo\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_cdd403321d2a1cdf862d23bdcdaa10f4d423dd71\classes.dex" />
+        optimize="true"
+        revision="25.0.2"
+        sha1="287e018f30c1498d7e029a53457cf729f312c909">
+        <dex dex="D:\Git\Demo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_cdd403321d2a1cdf862d23bdcdaa10f4d423dd71\classes.dex" />
     </item>
     <item
+        is-multidex="true"
+        jar="D:\Git\Demo\app\libs\MobCommons-2016.1201.1839.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d2416fb4e3fe16c82785fc6cd4f8b768b25c6202">
+        <dex dex="D:\Git\Demo\app\build\intermediates\transforms\dex\debug\folders\1000\2\MobCommons-2016.1201.1839_811523694172bf00c4ab09d271cdfd4c75479c30\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\Git\Demo\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
-        revision="23.0.3"
-        sha1="1a2b30882fbe9e6fbe15e8c16359efec5fa3e487">
-        <dex dex="D:\Git\Demo\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_7863f2cbcb7db69b883d77f762eca83ae77c3220\classes.dex" />
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="D:\Git\Demo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_7863f2cbcb7db69b883d77f762eca83ae77c3220\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Git\Demo\app\libs\MobTools-2016.1201.1839.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="28b130b739199908b8b9f82d6cc77043b5040d25">
+        <dex dex="D:\Git\Demo\app\build\intermediates\transforms\dex\debug\folders\1000\2\MobTools-2016.1201.1839_01fabe7b4c71dbb97cf20065e8aa75860130afe2\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Git\Demo\app\libs\MobTools-2016.1201.1839.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="28b130b739199908b8b9f82d6cc77043b5040d25">
+        <dex dex="D:\Git\Demo\app\build\intermediates\pre-dexed\release\MobTools-2016.1201.1839_01fabe7b4c71dbb97cf20065e8aa75860130afe2.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Git\Demo\app\libs\mysql-connector-java-5.1.10-bin.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b83574124f1a00d6f70d56ba64aa52b8e1588e6d">
+        <dex dex="D:\Git\Demo\app\build\intermediates\transforms\dex\debug\folders\1000\2\mysql-connector-java-5.1.10-bin_d729b0c65b5eee83af4f87bd172f4f3d6ecac80c\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Git\Demo\app\libs\mysql-connector-java-5.1.10-bin.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b83574124f1a00d6f70d56ba64aa52b8e1588e6d">
+        <dex dex="D:\Git\Demo\app\build\intermediates\pre-dexed\release\mysql-connector-java-5.1.10-bin_d729b0c65b5eee83af4f87bd172f4f3d6ecac80c.jar" />
     </item>
 
 </items>

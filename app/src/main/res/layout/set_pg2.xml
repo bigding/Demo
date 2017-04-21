@@ -11,103 +11,224 @@
         android:gravity="center"
         android:background="@color/titlebar_color">
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+
             android:layout_height="wrap_content"
-            android:text="@string/set_title"
-            android:textSize="20sp"
+            android:text="@string/my_pet"
+            android:textSize="24sp"
             android:textColor="@color/title_text_color"/>
+        <ImageButton
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:layout_margin="10dp"
+            android:id="@+id/update_hw"
+            android:background="@drawable/update_hw"
+            />
 
     </LinearLayout>
-    <LinearLayout
+    <android.support.v4.widget.SwipeRefreshLayout
         android:layout_width="match_parent"
-        android:layout_height="518dp"
-        android:orientation="vertical"
-        android:background="@drawable/set_bg">
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="317dp"
-            android:src="@drawable/pet_demo"/>
+        android:layout_height="match_parent"
+        android:id="@+id/refresh_pet">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginLeft="26dp"
-            android:gravity="center|left">
-            <TextView
+            android:layout_height="535dp"
+            android:background="@drawable/set_bg"
+            android:gravity="center"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_marginTop="5dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/name"
-                android:textSize="10sp"
-                android:textColor="@color/black"
-               />
+                android:orientation="horizontal"
+                android:layout_gravity="left"
+                android:layout_marginLeft="35dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:text="我的金币："
+                    />
 
-            <TextView
-                android:layout_width="wrap_content"
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/coin"
+                    android:layout_marginRight="5dp"/>
+
+                <TextView
+                    android:id="@+id/user_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="嘟嘟"
-                android:textSize="10sp"
-                android:textColor="@color/black"
-                android:layout_marginLeft="15dp"
-                />
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/pet"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="300dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <ImageButton
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:id="@+id/shop"
+                            android:background="@drawable/shop"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:text="商店"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageButton
+                            android:id="@+id/wardrobe"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/wardrobe" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:text="衣柜"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/corners"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="26dp"
+                        android:gravity="center|left"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/name"
+                            android:textColor="@color/text_gray"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:id="@+id/pet_nickname"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="26dp"
+                        android:layout_marginTop="12dp"
+                        android:gravity="center|left"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/shape"
+                            android:textColor="@color/text_gray"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:id="@+id/pet_shape"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="26dp"
+                        android:layout_marginTop="12dp"
+                        android:gravity="center|left"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/signature"
+                            android:textColor="@color/text_gray"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/pet_sign"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginTop="10dp"
+                    android:text="快进入运动模块和嘟嘟一起做运动吧！"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+
         </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginLeft="26dp"
-            android:gravity="center|left"
-            android:layout_marginTop="12dp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/shape"
-                android:textSize="10sp"
-                android:textColor="@color/black"
-                />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="有点小胖"
-                android:textSize="10sp"
-                android:textColor="@color/black"
-                android:layout_marginLeft="15dp"
-                />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginLeft="26dp"
-            android:gravity="center|left"
-            android:layout_marginTop="12dp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/goal"
-                android:textSize="10sp"
-                android:textColor="@color/black"
-                />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="锻炼打卡30天，解锁下一体型"
-                android:textSize="10sp"
-                android:textColor="@color/black"
-                android:layout_marginLeft="15dp"
-                />
-        </LinearLayout>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="41dp"
-            android:layout_marginLeft="26dp"
-            android:text="一起做运动吧！"
-            android:textSize="10sp"
-            android:textColor="@color/black"/>
-
-    </LinearLayout>
-
+    </android.support.v4.widget.SwipeRefreshLayout>
 
 </LinearLayout>

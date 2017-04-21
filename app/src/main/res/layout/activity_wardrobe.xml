@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_collect"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_gray">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/titlebar_height"
+        android:orientation="horizontal"
+        android:background="@color/titlebar_color"
+        android:gravity="center">
+        <ImageButton
+            android:layout_marginLeft="10dp"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:id="@+id/back_wardrobe"
+            android:background="@drawable/back"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/titlebar_height"
+            android:background="@color/titlebar_color"
+            android:gravity="center"
+            android:text="衣柜"
+            android:textColor="@color/title_text_color_selected"
+            android:textSize="@dimen/title_text_size" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:id="@+id/empty_ward"
+            android:visibility="gone"
+            android:text="--还没有衣服，快去商店购买吧--"
+            android:textColor="@color/black"/>
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/wardrobe_refresh">
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/clo_wardrobe_list">
+            </ListView>
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
